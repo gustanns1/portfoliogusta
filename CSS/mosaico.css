@@ -1,0 +1,57 @@
+.secao-mosaico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  max-width: 100vw;
+  max-width: 100vw;
+  min-height: 100vh;
+  margin-bottom: 10px;
+}
+
+.mosaico {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+.card--video {
+  flex: 1 1 500px;
+  max-width: 100%;
+  height: 300px;
+}
+
+.card--short {
+  flex: 0 0 170px;
+  max-width: 100%;
+  height: 300px;
+}
+
+.card-content {
+  height: 100%;
+  width: 100%;
+}
+
+.iframe--padrao {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .secao-mosaico {
+    min-height: auto;
+  }
+  .mosaico {
+    height: 220px;
+  }
+
+  .card-content .video,
+  .card-content .short {
+    width: 100%;
+  }
+}

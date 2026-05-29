@@ -1,0 +1,9 @@
+:root {
+  --cor-principal: #f6f9ff;
+  --cor-secundaria: #0b0424;
+
+  --fonte-blackItalic: "Satoshi-BlackItalic", sans-serif;
+  --fonte-black: "Satoshi-Black", sans-serif;
+  --fonte-bold: "Satoshi-Bold", sans-serif;
+  --fonte-medium: "Satoshi-Medium", sans-serif;
+}
